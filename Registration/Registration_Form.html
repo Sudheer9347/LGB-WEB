@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Form.css">
+    </head>
+    <body>
+        <div class="row1">
+            <h1>SAMPLE</h1>
+        </div>
+        <div class="row2">
+            <h2>Student Enrollment Form</h2>
+        </div>
+        <div class="row3">
+             <div class="col1"><br>
+                <form method="post" action="submit.php">
+                <label for="Name">Name:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <br>
+                <label>Email:</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <br>
+                <label>Website:</label>
+                <input type="url" name="website" id="website">
+                <br>
+                <br>
+                <label>Image:</label>
+                <input type="file" name="image" id="image">
+                <br>
+                <br>
+                <div class="Gender">
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" value="male">Male</input>
+                    <input type="radio" name="gender" value="female">Female</input>
+                </div>
+                <br>
+                <div class="skills">
+                    <label>Skills:</label>
+                    <input type="checkbox" name="interest" value="Java">Java</input>
+                    <input type="checkbox" name="interest" value="HTML">HTML</input>
+                    <input type="checkbox" name="interest" value="CSS">CSS</input>
+                </div>
+                <br>
+                <div class="buttons">
+                    <button class="submit" placeholder="Enroll Student">Enroll Student</button>
+                    <button class="reset" placeholder="clear">Clear</button>
+                </div>
+                </form>
+             </div>
+             <div class="col2">
+                <h3>Enrolled</h3>
+             </div>
+        </div>
+    </body>
+</html>
